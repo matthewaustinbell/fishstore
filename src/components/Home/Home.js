@@ -17,7 +17,7 @@ class Home extends React.Component {
             <NewOrder />
           </div>
           <div className="col">
-            <Orders />;
+            <Orders />
           </div>
         </div>
       </div>

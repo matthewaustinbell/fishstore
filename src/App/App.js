@@ -4,9 +4,7 @@ import firebase from 'firebase/app';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Auth from '../components/Auth/Auth';
 import Home from '../components/Home/Home';
-import Inventory from '../components/Inventory/Inventory';
-import Orders from '../components/Orders/Orders';
-import NewOrder from '../components/NewOrder/NewOrder';
+
 import MyNavbar from '../components/MyNavbar/MyNavbar';
 
 import './App.scss';
