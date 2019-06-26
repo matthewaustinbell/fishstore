@@ -1,10 +1,10 @@
-import axios from 'axios';
+import Axios from 'axios';
 import firebaseConfig from '../apiKeys.json';
 
-const baseUrl = firebaseConfig.firebaseKEys.databaseURL;
+const baseUrl = firebaseConfig.firebaseKeys.databaseURL;
 
 const getFishes = () => new Promise((resolve, reject) => {
-  axios.get(`${baseUrl}/fishes.json`)
+  Axios.get(`${baseUrl}/fishes.json`)
     .then((res) => {
       const fishes = [];
       Object.keys(res.data).forEach((fbKey) => {
